@@ -24,7 +24,7 @@ const ChatCopilot: React.FC<ChatCopilotProps> = ({ kb }) => {
     {
       id: '1',
       role: 'model',
-      text: 'Hello! I have indexed the Subrogation Claims Knowledge Base. I can answer questions regarding claim status, creation dates, updates, and personnel involved. What would you like to know?',
+      text: 'Hello! I have Subrogation Claims Knowledge Base. I can answer questions regarding claim status, creation dates, and updates involved. What would you like to know?',
       timestamp: new Date(),
     },
   ]);
@@ -101,10 +101,6 @@ const ChatCopilot: React.FC<ChatCopilotProps> = ({ kb }) => {
           </div>
           <div>
             <h1 className="font-bold text-sm tracking-tight text-slate-900">Subrogation Copilot</h1>
-            <p className="text-[11px] text-green-500 flex items-center gap-1 font-semibold">
-              <span className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse"></span>
-              Ultra-Fast & Re-indexed
-            </p>
           </div>
         </div>
         <div className="flex gap-4">
